@@ -1,0 +1,1 @@
+Every folder contains the code for each week's Code It event at [BytesToBits](https://bytestobits.dev/)
