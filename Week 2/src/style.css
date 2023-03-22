@@ -1,0 +1,55 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.TOH {
+  /* border: 2px solid red; */
+  height: 99vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+}
+
+.rod {
+  /* border: 2px solid red; */
+  height: 40vh;
+  width: 25vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.stand {
+  background-color: whitesmoke;
+  height: inherit;
+  width: 5px;
+  position: absolute;
+  left: 50%;
+  z-index: -1;
+}
+
+.block {
+  height: 20px;
+  background-color: green;
+  width: 100%;
+}

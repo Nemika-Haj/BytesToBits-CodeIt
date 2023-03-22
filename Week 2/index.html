@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <label for="diskInput">Disk Input</label>
+    <input type="number" id="diskInput" value="3" min="1" max="20" />
+    <label for="speedInput">Speed (in ms)</label>
+    <input type="number" id="speedInput" value="100" min="100" max="10000" />
+    <button id="solveButton">Solve</button>
+    <button id="resetButton">Reset</button>
+    <div class="TOH">
+      <div class="A rod">
+        <div class="stand"></div>
+      </div>
+      <div class="B rod">
+        <div class="stand"></div>
+      </div>
+      <div class="C rod">
+        <div class="stand"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
