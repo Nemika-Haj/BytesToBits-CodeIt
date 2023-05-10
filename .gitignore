@@ -1,0 +1,10 @@
+# Node files
+node_modules
+
+# Python files
+*.pyc
+
+# Environments
+venv/
+.env
+.env.local
